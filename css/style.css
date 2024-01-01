@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/womangym.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    /* background-color: rgba(240, 240, 240, 0.383);
+    border-radius: 15px; */
+}
+
+.left {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+}
+
+.left img {
+    height: 60px;
+    margin-left: 15px;
+    padding: 2px;
+    filter: invert(100%);
+
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 22px;
+    margin: auto 5px;
+    font-size: 20px;
+}
+
+.right {
+    /* border: 2px solid blue; */
+    display: inline-block;
+    right: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.right img {
+    height: 35px;
+
+    padding: 2px;
+    filter: invert(100%);
+}
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline 2px solid rgb(255, 255, 255);
+}
+.introcontainer{
+    /* margin: 100px auto; */
+    
+}
+.join{
+    width: 20px;
+    margin: 100px auto;
+}
+.introcontainer h2{
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff96;
+    font-size: 57px;
+    text-transform: uppercase;
+}
+.para1{
+    width: 400px;
+    margin: -97px auto;
+    margin-left: 790.3px;
+    color: #ffffffa6;
+    text-decoration:underline;
+    text-shadow: 2px black;
+    font-weight: bold;
+}
+.submitform{
+   background-color:#111a32ba;
+    border-radius: 15px;
+    /* display: block; */
+    position: absolute;
+    margin-left: 20px;
+    width:600px;
+}
+.submitform h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #adc3ff;
+    /* padding-left: 10px; */
+    text-align: center;
+}
+.submitform input{
+    width: 300px;
+    margin: 8px auto;
+    padding: 10px 15px;
+    display: block;
+    background-color:#5b5a6154;
+    color: white;
+    border: none;
+}
+.submitform button{
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px 15px;
+    display: block;
+    
+}
